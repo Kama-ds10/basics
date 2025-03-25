@@ -6,3 +6,38 @@ a {
 h1 {
   font-family: "Courier New", Courier, monospace;
 }
+
+/* universal selectorr */
+/* The universal selector will select elements of any type */
+* {
+  color: purple;
+}
+
+/* type selectors */
+/* A type selector (or element selector) will select all elements of the given element type, and the syntax is just the name of the element */
+div {
+  color: black;
+}
+
+/* class selectors */
+/* Class selectors will select all elements with the given class, which is just an attribute you place on an HTML element. */
+
+.alert-text {
+  color: red;
+}
+
+/* ID selectors */
+/* ID selectors are similar to class selectors. The major difference between classes and IDs is that an element can only have one ID. It cannot be repeated on a single page and should not contain any whitespace*/
+
+#title {
+  background-color: red;
+}
+
+/* Chaining selectors */
+.subsection.header {
+  color: red;
+}
+
+.subsection#preview {
+  color: blue;
+}
