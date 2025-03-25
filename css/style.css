@@ -63,3 +63,14 @@ div {
 .main .list {
   color: red;
 }
+
+/* inheritance */
+/* styles.css */
+
+#parent {
+  color: red;
+}
+
+.child {
+  color: blue;
+}
