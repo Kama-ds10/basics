@@ -83,6 +83,7 @@ div {
 body {
   font-family: sans-serif;
 }
+/*
 p,
 ul {
   border: 2px solid rebeccapurple;
@@ -102,4 +103,27 @@ ul {
 
 .block {
   display: block;
+}
+*/
+body {
+  font-family: sans-serif;
+}
+p,
+ul {
+  border: 2px solid rebeccapurple;
+}
+
+span,
+li {
+  border: 2px solid blue;
+}
+
+ul {
+  display: inline-flex;
+  list-style: none;
+  padding: 0;
+}
+
+.inline {
+  display: inline;
 }
