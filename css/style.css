@@ -183,7 +183,7 @@ p {
 } */
 
 /* borders */
-body {
+/* body {
   font-family: sans-serif;
 }
 .container {
@@ -201,4 +201,23 @@ body {
   border-top-style: dotted;
   border-right-width: 20px;
   border-bottom-color: hotpink;
+} */
+
+/* padding */
+body {
+  font-family: sans-serif;
+}
+.container {
+  border: 5px solid blue;
+  margin: 40px;
+  padding: 20px;
+}
+.box {
+  border: 5px solid rebeccapurple;
+  background-color: lightgray;
+  padding-top: 0;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  padding-left: 4em;
+  text-align: center;
 }
