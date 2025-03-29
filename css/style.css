@@ -143,19 +143,41 @@ ul {
 } */
 
 /* margin, padding and border */
-.container {
+/* .container {
   border: 5px solid blue;
   margin: 40px;
 }
+ */
 
+/* try changing the margin properties: */
+/*
 .box {
   border: 5px solid rebeccapurple;
   background-color: lightgray;
   padding: 10px;
   height: 100px;
-  /* try changing the margin properties: */
   margin-top: -40px;
   margin-right: 30px;
   margin-bottom: 40px;
   margin-left: 4em;
+  
+} */
+
+/* margin collapsing */
+.container {
+  border: 5px solid blue;
+  margin: 40px;
+}
+
+p {
+  border: 5px solid rebeccapurple;
+  background-color: lightgray;
+  padding: 10px;
+}
+.one {
+  margin-bottom: 50px;
+}
+
+.two {
+  margin-top: 30px;
 }
