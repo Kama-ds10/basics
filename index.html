@@ -143,20 +143,20 @@
 
     <!-- padding -->
     <!-- The padding sits between the border and the content area and is used to push the content away from the border. Unlike margins, you cannot have a negative padding. Any background applied to your element will display behind the padding -->
-    <div class="container">
+    <!-- <div class="container">
       <div class="box">Change my padding</div>
-    </div>
+    </div> -->
 
     <!-- the box model and inline boxes -->
-    <nav>
+    <!-- <nav>
       <ul class="links-list">
         <li><a href="">Link one</a></li>
         <li><a href="">Link two</a></li>
         <li><a href="">Link three</a></li>
       </ul>
-    </nav>
+    </nav> -->
     <!-- div and span -->
-    <div class="introduction">
+    <!-- <div class="introduction">
       <h2>Introduction</h2>
     </div>
 
@@ -166,11 +166,11 @@
 
     <div class="contact-us">
       <h2>Contact Us</h2>
-    </div>
+    </div> -->
 
     <!-- Span is an inline-level element by default. It can be used to group text content and inline HTML elements for styling and should only be used when no other semantic HTML element is appropriate -->
 
-    <p>
+    <!-- <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
       veniam,
@@ -182,6 +182,42 @@
         ullamco laboris
       </span>
       nisi ut aliquip ex ea commodo consequat.
+    </p> -->
+
+    <!-- css layout -->
+    <h1>Basic document flow</h1>
+
+    <p>
+      I am a basic block level element. My adjacent block level elements sit on
+      new lines below me.
+    </p>
+
+    <p>
+      By default we span 100% of the width of our parent element, and we are as
+      tall as our child content. Our total width and height is our content +
+      padding + border width/height.
+    </p>
+
+    <p>
+      We are separated by our margins. Because of margin collapsing, we are
+      separated by the size of one of our margins, not both.
+    </p>
+
+    <p>
+      Inline elements
+      <span>like this one</span>
+      and
+      <span>this one</span>
+      sit on the same line along with adjacent text nodes, if there is space on
+      the same line. Overflowing inline elements will
+      <span>
+        wrap onto a new line if possible (like this one containing text)
+      </span>
+      , or just go on to a new line if not, much like this image will do:
+      <img
+        src="https://mdn.github.io/shared-assets/images/examples/long.jpg"
+        alt="snippet of cloth"
+      />
     </p>
   </body>
 </html>

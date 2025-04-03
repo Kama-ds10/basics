@@ -1,88 +1,88 @@
-a {
+/* a {
   color: blueviolet;
   text-decoration: none;
 }
 
 h1 {
   font-family: "Courier New", Courier, monospace;
-}
+} */
 
 /* universal selectorr */
 /* The universal selector will select elements of any type */
-* {
+/* * {
   color: purple;
-}
+} */
 
 /* type selectors */
 /* A type selector (or element selector) will select all elements of the given element type, and the syntax is just the name of the element */
-div {
+/* div {
   color: black;
-}
+} */
 
 /* class selectors */
 /* Class selectors will select all elements with the given class, which is just an attribute you place on an HTML element. */
 
-.alert-text {
+/* .alert-text {
   color: red;
-}
+} */
 
 /* ID selectors */
 /* ID selectors are similar to class selectors. The major difference between classes and IDs is that an element can only have one ID. It cannot be repeated on a single page and should not contain any whitespace*/
-
-#title {
+/* #title {
   background-color: red;
-}
+  } */
 
 /* Chaining selectors */
+/* 
 .subsection.header {
   color: red;
 }
 
 .subsection#preview {
   color: blue;
-}
+} */
 
 /* specificity */
 /* rule 1 */
-.subsection {
+/* .subsection {
   color: blue;
-}
+} */
 
 /* rule 2 */
 
-.main .list {
+/* .main .list {
   color: red;
-}
+} */
 
 /* rule 1 */
-#subsection {
+/* #subsection {
   color: blue;
-}
+} */
 
 /* rule 2 */
-.main .list {
+/* .main .list {
   color: red;
-}
+} */
 
 /* inheritance */
 /* styles.css */
 
-#parent {
+/* #parent {
   color: red;
 }
 
 .child {
   color: blue;
-}
+} */
 
 /* the box model */
 /* * {
   outline: 2px solid red;
 } */
 
-body {
+/* body {
   font-family: sans-serif;
-}
+} */
 /*
 p,
 ul {
@@ -105,16 +105,16 @@ ul {
   display: block;
 }
 */
-body {
+/* body {
   font-family: sans-serif;
-}
+} */
 /* p,
 ul {
   border: 2px solid rebeccapurple;
 } */
 
-span,
 /* li {
+span,
   border: 2px solid blue;
 }
 
@@ -124,9 +124,9 @@ ul {
   padding: 0;
 } */
 
-.inline {
+/* .inline {
   display: inline;
-}
+} */
 
 /* playing with box model */
 /* .box {
@@ -245,7 +245,7 @@ li {
 }
 */
 
-div {
+/* div {
   padding: 30px;
   text-align: center;
   margin-bottom: 10px;
@@ -262,8 +262,26 @@ div {
 
 .contact-us {
   background-color: #334257;
-}
+} */
 /* span */
-.highlight {
+/* .highlight {
   background-color: yellow;
+} */
+
+/* css layout */
+body {
+  width: 500px;
+  margin: 0 auto;
+}
+
+p {
+  background: rgb(255 84 104 / 30%);
+  border: 2px solid rgb(255 84 104);
+  padding: 10px;
+  margin: 10px;
+}
+
+span {
+  background: white;
+  border: 1px solid black;
 }
