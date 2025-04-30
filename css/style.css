@@ -269,7 +269,7 @@ li {
 } */
 
 /* css layout */
-body {
+/* body {
   width: 500px;
   margin: 0 auto;
 }
@@ -284,4 +284,36 @@ p {
 span {
   background: white;
   border: 1px solid black;
+} */
+
+/* flex */
+/* .flex-container {
+  display: flex;
+}
+
+.flex-container div {
+  background: peachpuff;
+  border: 4px solid brown;
+  height: 100px;
+  width: 250px;
+
+  flex: 1 1 auto;
+}
+
+.flex-container .two {
+  flex-shrink: 0;
+} */
+
+/* new */
+
+.parent {
+  background-color: brown;
+  padding: 50px;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.child {
+  background-color: bisque;
+  height: 250px;
 }
